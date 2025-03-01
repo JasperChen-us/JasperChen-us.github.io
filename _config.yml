@@ -12,12 +12,12 @@ font_awesome: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.
 author:
   name: 'Jasper Chen'
   email: jasperch@umich.edu
-  mastodon: tzuehlke@mstdn.social
-  twitter_username: thomzuehlke
+#  mastodon: tzuehlke@mstdn.social
+#  twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
   github_username:  JasperChen-us
   linkedin_username:  taoyi-chen
-  meetup_name: Azure-Meetup-Rostock-MV
+#  meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
 destination: _site
