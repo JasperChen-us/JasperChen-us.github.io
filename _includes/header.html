@@ -22,6 +22,40 @@
             <ul class="navigation">
 
               <!-- https://mastodon.social/@tzuehlke@mstdn.social -->
+
+            {% if site.author.email %}
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
+                  <!--<i class="icon icon-mail"></i>-->
+                  <i class="fa-solid fa-envelope"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.linkedin_username %}
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
+                  <!--<i class="icon icon-social-linkedin"></i>-->
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            {% endif %}
+
+            {% if site.author.github_username %}
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
+                  <!--<i class="icon icon-social-github"></i>-->
+                  <i class="fa-brands fa-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+            {% endif %}
+              
             {% if site.author.mastodon %}
               <!-- Mastodon -->
               <li class="navigation__item">
@@ -54,28 +88,6 @@
               </li>
             {% endif %}
 
-            {% if site.author.linkedin_username %}
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <!--<i class="icon icon-social-linkedin"></i>-->
-                  <i class="fa-brands fa-linkedin"></i>
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.author.github_username %}
-              <!-- GitHub -->
-              <li class="navigation__item">
-                <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <!--<i class="icon icon-social-github"></i>-->
-                  <i class="fa-brands fa-github"></i>
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-            {% endif %}
-
             {% if site.author.meetup_name %}
             <!-- Meetup -->
             <li class="navigation__item">
@@ -85,17 +97,6 @@
                 <span class="label">Meetup</span>
               </a>
             </li>
-            {% endif %}
-
-            {% if site.author.email %}
-              <!-- Email -->
-              <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <!--<i class="icon icon-mail"></i>-->
-                  <i class="fa-solid fa-envelope"></i>
-                  <span class="label">Email</span>
-                </a>
-              </li>
             {% endif %}
 
             </ul>
