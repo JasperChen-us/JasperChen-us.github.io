@@ -2,7 +2,7 @@
 - name: My Personal Website Construction
   gh_user: JasperChen-us
   repo: JasperChen-us.github.io
-  img: https://github.com/JasperChen-us/Photos/blob/main/background.jpg
+  img: https://github.com/JasperChen-us/Photos/blob/main/background.png
 
 - name: A regular rebuild and hosting of the TOR snowflake project (to provide access to censored websites)
   gh_user: tzuehlke
