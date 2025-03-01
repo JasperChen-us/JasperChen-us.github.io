@@ -6,7 +6,8 @@ baseurl: ''
 profilepic: '/images/personal photo.jpg'
 bkimage: '/images/background.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js'
+
 
 author:
   name: 'Jasper Chen'
