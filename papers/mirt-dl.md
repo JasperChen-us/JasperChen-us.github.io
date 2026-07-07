@@ -1,6 +1,6 @@
 ---
 layout: default
-Multidimensional Item Response Theory under General Latent Distributions
+title: Multidimensional Item Response Theory under General Latent Distributions
 permalink: /papers/mirt-dl/
 ---
 
