@@ -1,5 +1,6 @@
 # projects section data
 - name: Multidimensional Item Response Theory under General Latent Distributions
+  authors: Taoyi Chen, Chengyu Cui, Chun Wang, Gongjun Xu
   url: /papers/mirt-dl/
   img: /images/cover.png
 
