@@ -22,6 +22,9 @@ robots: noindex
                 <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a>
               {% endif %}
             </h4>
+            {% if project.authors %}
+              <p class="project-authors">{{ project.authors }}</p>
+            {% endif %}
           </div>
           <div class="timeline-body">
             {% if project.desc %}
