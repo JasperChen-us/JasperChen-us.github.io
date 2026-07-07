@@ -9,3 +9,14 @@ This blog records some of my reflections while reading *Modern Poker Theory* by 
 
 ## 6-max Cash Game Strategies(100bb)
 
+### Raise First In Strategies
+pre-flop analysis with the simplest possible scenario, blind vs blind, then expand the strategies by incorporating BN, CO, HJ, and LJ.
+
+1. **Small Blind**
+   
+3. **Button**
+4. **Cutoff**
+5. **Hijack**
+6. **Lojack**
+
+### Playing with 3-bets
