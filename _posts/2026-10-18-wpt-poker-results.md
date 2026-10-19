@@ -18,4 +18,4 @@ Starting stack: **216**. This journal tracks my progress toward **20,000**, begi
 | --- | --- | ---: | ---: |
 | 2026-10-18 | 0.05/0.1 (0.05), 0.1/0.2/0.4 (0.1) | 252.39 | +36.39 |
 
-Total stack is the balance at the end of each day. Daily profit/loss is the change from the previous recorded balance, using the starting stack of 216 for the first day. October 18 profit: 252.39 - 216.00 = **+36.39**.
+Profit to date = **+36.39**
