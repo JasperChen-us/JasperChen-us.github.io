@@ -1,22 +1,21 @@
 ---
 layout: post
-title: "WPT Poker 战绩记录"
+title: "From 200 to 20,000: My Poker Journey"
 date: 2026-10-18
 permalink: /blog/wpt-poker-results/
 ---
 
-## 经验与提醒
+## Lessons and Reminders
 
-1. 不要越级打牌。对于现在的我来说，最多打 **0.05/0.1**。
-2. 经历多次 cooler 或 bad beat 之后，冷静一下，当天就不要再打了。
+1. Do not move up in stakes too soon. For now, stick to **0.05/0.1 (0.05)** or **0.1/0.2/0.4 (0.1)**.
+2. After several coolers or bad beats, take a break to cool down and stop playing for the rest of the day.
 
-## 战绩记录
+## WPT Results
 
-Starting stack：**216**。2026-10-17 未打牌，2026-10-18 是第一个打牌日。
+Starting stack: **216**. This journal tracks my progress toward **20,000**, beginning on October 18, 2026.
 
-| 日期 | Level | Total stack | Daily profit/loss |
+| Date | Level | Total stack | Daily profit/loss |
 | --- | --- | ---: | ---: |
-| 2026-10-17 | 未打牌 | 216.00 | 0.00 |
-| 2026-10-18 | 0.05/0.1（0.05）、0.1/0.2/0.4（0.1） | 252.39 | +36.39 |
+| 2026-10-18 | 0.05/0.1 (0.05), 0.1/0.2/0.4 (0.1) | 252.39 | +36.39 |
 
-Total stack 记录当天结束时的余额；Daily profit/loss 记录当日盈亏，以前一天的余额为基准计算。10-18 盈亏：252.39 − 216.00 = **+36.39**。
+Total stack is the balance at the end of each day. Daily profit/loss is the change from the previous recorded balance, using the starting stack of 216 for the first day. October 18 profit: 252.39 - 216.00 = **+36.39**.
