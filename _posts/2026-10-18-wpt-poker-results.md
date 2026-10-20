@@ -17,5 +17,6 @@ Starting stack: **216**. This journal tracks my progress toward **20,000**, begi
 | Date | Level | Total stack | Daily profit/loss |
 | --- | --- | ---: | ---: |
 | 2026-10-18 | 0.05/0.1 (0.05), 0.1/0.2/0.4 (0.1) | 252.39 | +36.39 |
+| 2026-10-19 | 0.05/0.1/0.2 (0.05), 0.1/0.2/0.4 (0.1) | 233.15 | -19.24 |
 
-Profit to date = **+36.39**
+Profit to date = **+17.15**
