@@ -81,8 +81,8 @@ Cumulative profit relative to the starting stack of 216. Hover over a point for 
   data.forEach(function(d,i){
     var dot=el('circle',{cx:x(d),cy:y(d.profit),r:5,fill:'#059669',stroke:'#fff','stroke-width':2,tabindex:0});
     el('title',{},d.date+': '+(d.profit>=0?'+':'')+d.profit.toFixed(2),dot);
-    if(i===0 || i===data.length-1 || i%3===0) el('text',{x:x(d),y:378,'text-anchor':'middle','font-size':14,fill:'#64748b'},d.date.slice(5).replace('-','/'));
+    if(i===0 || d.date.slice(0,7)!==data[i-1].date.slice(0,7)) el('text',{x:x(d),y:378,'text-anchor':'middle','font-size':14,fill:'#64748b'},Number(d.date.slice(5,7))+'月');
   });
-  el('text',{x:450,y:414,'text-anchor':'middle','font-size':14,fill:'#64748b'},'Date · '+data[0].date.slice(0,4));
+  el('text',{x:450,y:414,'text-anchor':'middle','font-size':14,fill:'#64748b'},'Month · '+data[0].date.slice(0,4));
 })();
 </script>
