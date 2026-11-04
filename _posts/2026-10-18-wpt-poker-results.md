@@ -10,6 +10,8 @@ permalink: /blog/wpt-poker-results/
 1. Do not move up in stakes too soon. For now, stick to **0.05/0.1/0.2 (0.05)** or **0.1/0.2/0.4 (0.1)**.
 2. After several coolers or bad beats, take a break to cool down and stop playing for the rest of the day.
 
+3. After a combined total of 5 river suckouts or coolers in a day, stop playing for the rest of the day.
+
 ## WPT Results
 
 Starting stack: **216**. This journal tracks my progress toward **20,000**, beginning on October 18, 2026.
