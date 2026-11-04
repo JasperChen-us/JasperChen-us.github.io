@@ -11,6 +11,7 @@ permalink: /blog/wpt-poker-results/
 2. After several coolers or bad beats, take a break to cool down and stop playing for the rest of the day.
 
 3. After a combined total of 5 river suckouts or coolers in a day, stop playing for the rest of the day.
+4. Lesson from the heavy loss on November 3, 2026: **Do not play small suited hands too often**, to avoid making a small flush that runs into a bigger flush. The emphasis is on limiting how often I play these hands, not avoiding them entirely.
 
 ## WPT Results
 
