@@ -8,10 +8,8 @@ permalink: /blog/wpt-poker-results/
 ## Lessons and Reminders
 
 1. Do not move up in stakes too soon. For now, stick to **0.05/0.1/0.2 (0.05)** or **0.1/0.2/0.4 (0.1)**.
-2. After several coolers or bad beats, take a break to cool down and stop playing for the rest of the day.
-
-3. After a combined total of 5 river suckouts or coolers in a day, stop playing for the rest of the day.
-4. Lesson from the heavy loss on November 3, 2026: **Do not play small suited hands too often**, to avoid making a small flush that runs into a bigger flush. The emphasis is on limiting how often I play these hands, not avoiding them entirely.
+2. After a combined total of 5 river suckouts or coolers in a day, stop playing for the rest of the day.
+3. Lesson from the heavy loss on November 3, 2026: **Do not play small suited hands too often**, to avoid making a small flush that runs into a bigger flush. The emphasis is on limiting how often I play these hands, not avoiding them entirely.
 
 ## WPT Results
 
@@ -35,11 +33,10 @@ Starting stack: **216**. This journal tracks my progress toward **20,000**, begi
 | 2026-11-01 | 0.1/0.2/0.4 (0.1) | 558.25 | +38.15 |
 | 2026-11-02 | 0.1/0.2/0.4 (0.1) | 579.66 | +21.41 |
 | 2026-11-03 | 0.1/0.2/0.4 (0.1) | 382.39 | -197.27 |
-| 2026-11-04 | 0.1/0.2/0.4 (0.1) | 654.73 | -380.58 |
+| 2026-11-04 | 0.1/0.2/0.4 (0.1) | 400.09 | +17.70 |
 
-The November 4 ending stack includes a new buy-in of 652.92.
 
-Profit to date = **-214.19**
+Profit to date = **+184.09**
 
 ## Profit Progress
 
