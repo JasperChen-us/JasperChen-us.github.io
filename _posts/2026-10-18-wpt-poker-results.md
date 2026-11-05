@@ -35,12 +35,15 @@ Starting stack: **216**. This journal tracks my progress toward **20,000**, begi
 | 2026-11-01 | 0.1/0.2/0.4 (0.1) | 558.25 | +38.15 |
 | 2026-11-02 | 0.1/0.2/0.4 (0.1) | 579.66 | +21.41 |
 | 2026-11-03 | 0.1/0.2/0.4 (0.1) | 382.39 | -197.27 |
+| 2026-11-04 | 0.1/0.2/0.4 (0.1) | 654.73 | -380.58 |
 
-Profit to date = **+166.39**
+The November 4 ending stack includes a new buy-in of 652.92.
+
+Profit to date = **-214.19**
 
 ## Profit Progress
 
-Cumulative profit relative to the starting stack of 216. Hover over a point for details. Dates without a recorded session are not plotted.
+Cumulative profit is the sum of daily results after adjusting for buy-ins. Hover over a point for details. Dates without a recorded session are not plotted.
 
 <div id="poker-profit-chart" style="margin:24px 0; color:#334155;"></div>
 <script>
@@ -50,8 +53,11 @@ Cumulative profit relative to the starting stack of 216. Hover over a point for 
     return t.rows.length && t.rows[0].textContent.includes('Total stack');
   });
   if (!host || !table) return;
+  var cumulativeCents = 0;
   var data = Array.from(table.rows).slice(1).map(function (r) {
-    return {date:r.cells[0].textContent.trim(), profit: Number(r.cells[2].textContent.trim()) - 216};
+    var dailyProfit = Number(r.cells[3].textContent.trim());
+    if (Number.isFinite(dailyProfit)) cumulativeCents += Math.round(dailyProfit * 100);
+    return {date:r.cells[0].textContent.trim(), profit: Number.isFinite(dailyProfit) ? cumulativeCents / 100 : NaN};
   }).filter(function (d) {return Number.isFinite(d.profit);});
   if (!data.length) return;
   var ns = 'http://www.w3.org/2000/svg';
@@ -64,7 +70,7 @@ Cumulative profit relative to the starting stack of 216. Hover over a point for 
   var svg = document.createElementNS(ns, 'svg');
   svg.setAttribute('viewBox','0 0 900 440');
   svg.setAttribute('role','img');
-  svg.setAttribute('aria-label','Cumulative poker profit by date, relative to starting stack 216');
+  svg.setAttribute('aria-label','Cumulative poker profit by date, adjusted for buy-ins');
   svg.style.cssText='display:block;width:100%;height:auto;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;font-family:system-ui,sans-serif';
   host.appendChild(svg);
   el('title', {}, 'Cumulative poker profit');
