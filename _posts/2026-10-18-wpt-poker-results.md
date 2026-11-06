@@ -5,7 +5,11 @@ date: 2026-10-18
 permalink: /blog/wpt-poker-results/
 ---
 
-## Lessons and Reminders
+## Lessons
+
+1. **3-betting from the blinds.** From the small blind, use a more linear 3-bet range to push the big blind out and isolate the opener. From the big blind, use a more polarized 3-bet range. Call with hands like AJ, AT, KJ, and KQ to retain their equity. Use hands like K5 and K4 as 3-bet bluffs and fold them to a 4-bet.
+
+## Reminders
 
 1. Do not move up in stakes too soon. For now, stick to **0.05/0.1/0.2 (0.05)** or **0.1/0.2/0.4 (0.1)**.
 2. After a combined total of 5 river suckouts or coolers in a day, stop playing for the rest of the day.
