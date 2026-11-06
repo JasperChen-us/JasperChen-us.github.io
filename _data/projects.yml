@@ -4,6 +4,10 @@
   url: /papers/mirt-dl/
   img: /images/cover.png
 
+- name: Where Is a Prediction Model Miscalibrated, and for Whom? Local Audits in Outcome-Learned Pockets
+  authors: Taoyi Chen, Bernardo Modenesi, Sima Najafzadehkhoei, Lucia Wang, Ameya Diwan, Beatrice Kundsen
+  url: /papers/WIPMM/
+  img: /images/cover_WIPMM.png
 
 - name: My Personal Website Construction
   gh_user: JasperChen-us
