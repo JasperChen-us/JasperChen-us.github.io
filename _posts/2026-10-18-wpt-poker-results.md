@@ -60,7 +60,7 @@ Cumulative profit is the sum of daily results after adjusting for buy-ins. Hover
   var data = Array.from(table.rows).slice(1).map(function (r) {
     var dailyProfit = Number(r.cells[3].textContent.trim());
     if (Number.isFinite(dailyProfit)) cumulativeCents += Math.round(dailyProfit * 100);
-    return {date:r.cells[0].textContent.trim(), profit: Number.isFinite(dailyProfit) ? cumulativeCents / 100 : NaN};
+    return {date:r.cells[0].textContent.trim(), dailyProfit: dailyProfit, profit: Number.isFinite(dailyProfit) ? cumulativeCents / 100 : NaN};
   }).filter(function (d) {return Number.isFinite(d.profit);});
   if (!data.length) return;
   var ns = 'http://www.w3.org/2000/svg';
@@ -92,9 +92,18 @@ Cumulative profit is the sum of daily results after adjusting for buy-ins. Hover
   var points=data.map(function(d){return x(d)+','+y(d.profit);}).join(' ');
   el('polygon',{points:x(data[0])+','+y(0)+' '+points+' '+x(last)+','+y(0),fill:'#10b981','fill-opacity':0.1});
   el('polyline',{points:points,fill:'none',stroke:'#059669','stroke-width':3,'stroke-linejoin':'round','stroke-linecap':'round'});
+  function formatProfit(value) {
+    return (value > 0 ? '+' : '') + value.toFixed(2);
+  }
   data.forEach(function(d,i){
     var dot=el('circle',{cx:x(d),cy:y(d.profit),r:5,fill:'#059669',stroke:'#fff','stroke-width':2,tabindex:0});
-    el('title',{},d.date+': '+(d.profit>=0?'+':'')+d.profit.toFixed(2),dot);
+    var details = [
+      'Date: ' + d.date,
+      'Daily P/L: ' + formatProfit(d.dailyProfit),
+      'Cumulative P/L: ' + formatProfit(d.profit)
+    ].join('\n');
+    el('title', {}, details, dot);
+    dot.setAttribute('aria-label', details);
     if(i===0 || d.date.slice(0,7)!==data[i-1].date.slice(0,7)) el('text',{x:x(d),y:378,'text-anchor':'middle','font-size':14,fill:'#64748b'},Number(d.date.slice(5,7))+'月');
   });
   el('text',{x:450,y:414,'text-anchor':'middle','font-size':14,fill:'#64748b'},'Month · '+data[0].date.slice(0,4));
